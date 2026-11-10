@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="358.0" prefWidth="392.0" xmlns="http://javafx.com/javafx/26" xmlns:fx="http://javafx.com/fxml/1" fx:controller="school.examinations.RegisterController">
+   <children>
+      <Label layoutX="94.0" layoutY="24.0" text="Enter username and password to register" />
+      <Label layoutX="107.0" layoutY="52.0" text="First Name" />
+      <Label layoutX="108.0" layoutY="89.0" text="Last Name" />
+      <Label layoutX="111.0" layoutY="127.0" text="E-Mail" />
+      <Label layoutX="109.0" layoutY="173.0" text="Username" />
+      <Label layoutX="110.0" layoutY="209.0" text="Password" />
+      <Label layoutX="88.0" layoutY="242.0" text="Confirm Password" />
+      <Button fx:id="cancel" layoutX="102.0" layoutY="287.0" mnemonicParsing="false" text="Cancel" />
+      <Button fx:id="register" layoutX="275.0" layoutY="287.0" mnemonicParsing="false" onAction="#handleRegister" text="Register" />
+      <TextField fx:id="fname" layoutX="192.0" layoutY="48.0" promptText="first name" />
+      <TextField fx:id="lname" layoutX="192.0" layoutY="85.0" promptText="last name" />
+      <TextField fx:id="email" layoutX="192.0" layoutY="123.0" promptText="enter email" />
+      <TextField fx:id="username" layoutX="192.0" layoutY="169.0" promptText="username" />
+      <PasswordField fx:id="password" layoutX="192.0" layoutY="205.0" promptText="password" />
+      <PasswordField fx:id="confirm" layoutX="192.0" layoutY="238.0" promptText="confirm password" />
+      <Label fx:id="emailError" layoutX="197.0" layoutY="153.0" />
+   </children>
+</AnchorPane>

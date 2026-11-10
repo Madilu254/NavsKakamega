@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@android:drawable/ic_menu_today"
+            android:title="@string/nav_dashboard" />
+        <item
+            android:id="@+id/nav_devotion"
+            android:icon="@android:drawable/ic_menu_agenda"
+            android:title="@string/nav_devotion" />
+        <item
+            android:id="@+id/nav_people"
+            android:icon="@android:drawable/ic_menu_myplaces"
+            android:title="@string/nav_people" />
+        <item
+            android:id="@+id/nav_programs"
+            android:icon="@android:drawable/ic_menu_agenda"
+            android:title="@string/nav_programs" />
+        <item
+            android:id="@+id/nav_chat"
+            android:icon="@drawable/ic_chat"
+            android:title="@string/nav_chat" />
+    </group>
+    <item android:title="Account">
+        <menu>
+            <item
+                android:id="@+id/nav_profile"
+                android:icon="@android:drawable/ic_menu_view"
+                android:title="Profile" />
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@android:drawable/ic_lock_power_off"
+                android:title="Logout" />
+        </menu>
+    </item>
+</menu>

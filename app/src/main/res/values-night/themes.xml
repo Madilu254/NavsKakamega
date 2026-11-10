@@ -1,0 +1,4 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Inherit from the light theme to ensure consistency on physical devices with dark mode enabled -->
+    <style name="Theme.NavigatorsKakamega" parent="Base.Theme.NavigatorsKakamega" />
+</resources>

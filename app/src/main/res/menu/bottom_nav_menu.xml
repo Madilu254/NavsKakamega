@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/navigation_home"
+        android:icon="@android:drawable/ic_menu_today"
+        android:title="Dashboard" />
+    <item
+        android:id="@+id/navigation_people"
+        android:icon="@android:drawable/ic_menu_myplaces"
+        android:title="People" />
+    <item
+        android:id="@+id/navigation_programs"
+        android:icon="@android:drawable/ic_menu_agenda"
+        android:title="Programs" />
+    <item
+        android:id="@+id/navigation_finance"
+        android:icon="@android:drawable/ic_menu_save"
+        android:title="Finance" />
+    <item
+        android:id="@+id/navigation_me"
+        android:icon="@android:drawable/ic_menu_view"
+        android:title="Profile" />
+</menu>

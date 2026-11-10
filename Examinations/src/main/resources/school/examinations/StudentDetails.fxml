@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="461.0" prefWidth="529.0" xmlns="http://javafx.com/javafx/26" xmlns:fx="http://javafx.com/fxml/1" fx:controller="school.examinations.StudentController">
+   <children>
+      <Label layoutX="196.0" layoutY="46.0" text="Enter Student Details" />
+      <Label layoutX="86.0" layoutY="98.0" text="Registation number" />
+      <Label layoutX="133.0" layoutY="138.0" text="First Name" />
+      <Label layoutX="134.0" layoutY="176.0" text="Last Nmae" />
+      <Label layoutX="145.0" layoutY="210.0" text="Gender" />
+      <Label layoutX="119.0" layoutY="248.0" text="Year of Study" />
+      <TextField layoutX="232.0" layoutY="94.0" promptText="Enter Registration Number" />
+      <TextField layoutX="234.0" layoutY="134.0" promptText="Enter First Name" />
+      <TextField layoutX="234.0" layoutY="172.0" promptText="Enter Last Name" />
+      <Label layoutX="119.0" layoutY="284.0" text="Date of Birth" />
+      <Label layoutX="123.0" layoutY="323.0" text="Programme" />
+      <Button fx:id="cancel" layoutX="190.0" layoutY="376.0" mnemonicParsing="false" text="Cancel" />
+      <Button fx:id="save" layoutX="382.0" layoutY="376.0" mnemonicParsing="false" text="Save" />
+      <RadioButton fx:id="female" layoutX="234.0" layoutY="210.0" mnemonicParsing="false" text="Female" />
+      <RadioButton fx:id="male" layoutX="334.0" layoutY="210.0" mnemonicParsing="false" text="Male" />
+      <ComboBox fx:id="yos" layoutX="232.0" layoutY="244.0" prefWidth="150.0" promptText="Select Year Of Study" />
+      <DatePicker fx:id="dob" layoutX="233.0" layoutY="279.0" prefHeight="26.0" prefWidth="150.0" />
+      <ComboBox fx:id="prog" layoutX="231.0" layoutY="319.0" prefWidth="150.0" promptText="select programme" />
+   </children>
+</AnchorPane>

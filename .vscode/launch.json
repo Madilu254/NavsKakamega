@@ -1,0 +1,23 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Navs Kakamega (Debug on Phone / Device)",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "debug"
+        },
+        {
+            "name": "Navs Kakamega (Chrome Web)",
+            "request": "launch",
+            "type": "dart",
+            "deviceId": "chrome"
+        },
+        {
+            "name": "Navs Kakamega (Windows Desktop)",
+            "request": "launch",
+            "type": "dart",
+            "deviceId": "windows"
+        }
+    ]
+}
